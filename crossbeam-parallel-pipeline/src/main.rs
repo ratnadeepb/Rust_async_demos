@@ -13,6 +13,7 @@ fn main() {
         // producer thread
         s.spawn(|_| {
             for i in 0..n_msgs {
+                // the send call blocks for half a second because the receiver threads sleep for half a second
                 snd1.send(i).unwrap();
                 println!("source sent {}", i);
             }
@@ -24,6 +25,7 @@ fn main() {
             let (sndr, rcvr) = (snd2.clone(), rcv1.clone());
             // spawn workers in separate threads
             s.spawn(move |_| {
+                // each thread sleeps for half a second before processing a message
                 thread::sleep(time::Duration::from_millis(500));
                 // receive until channel closes
                 for msg in rcvr.iter() {
