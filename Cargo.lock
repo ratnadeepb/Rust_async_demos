@@ -296,7 +296,7 @@ name = "crossbeam-parallel-pipeline"
 version = "0.1.0"
 dependencies = [
  "crossbeam",
- "rayon",
+ "crossbeam-channel 0.5.0",
 ]
 
 [[package]]

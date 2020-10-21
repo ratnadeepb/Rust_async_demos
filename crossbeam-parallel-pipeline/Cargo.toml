@@ -8,4 +8,4 @@ edition = "2018"
 
 [dependencies]
 crossbeam = "0.8.0"
-rayon = "1.4.1"
+crossbeam-channel = "0.5.0"
