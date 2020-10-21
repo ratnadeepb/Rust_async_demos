@@ -1,0 +1,10 @@
+[package]
+name = "greenthreads"
+version = "0.1.0"
+authors = ["ratnadeepb"]
+edition = "2018"
+docs = "uses the nightly branch - rustup override set nightly"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

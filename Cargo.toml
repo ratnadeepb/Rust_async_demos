@@ -1,0 +1,13 @@
+[workspace]
+members = [
+	"hello-async",
+	"timer",
+	"a-chat",
+	"thread-demo",
+	# "greenthreads",
+	#"async-basics",
+	"testing-mio",
+	"tokio-basic",
+	"rayon-crossbeam-demo",
+	"crossbeam-parallel-pipeline",
+]
