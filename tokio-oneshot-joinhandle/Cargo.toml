@@ -1,0 +1,10 @@
+[package]
+name = "tokio-oneshot-joinhandle"
+version = "0.1.0"
+authors = ["Ratnadeep Bhattacharya <bhattacharya.ratnadeep@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { feature=["full"], version="0.3.1" }

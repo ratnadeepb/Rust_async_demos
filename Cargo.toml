@@ -10,5 +10,6 @@ members = [
 	"tokio-basic",
 	"rayon-crossbeam-demo",
 	"crossbeam-parallel-pipeline",
-	"threadpool-demo"
+	"threadpool-demo",
+	"tokio-oneshot-joinhandle",
 ]
