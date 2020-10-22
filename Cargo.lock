@@ -1069,13 +1069,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "threadpool-tokio"
-version = "0.1.0"
-dependencies = [
- "tokio",
-]
-
-[[package]]
 name = "tiff"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1128,6 +1121,20 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "tokio-mpsc"
+version = "0.1.0"
+dependencies = [
+ "tokio",
+]
+
+[[package]]
+name = "tokio-oneshot-joinhandle"
+version = "0.1.0"
+dependencies = [
+ "tokio",
 ]
 
 [[package]]
