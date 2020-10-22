@@ -7,6 +7,7 @@ Reading through the References section is of immense value. However, for some of
 - `thread-demo`: shows how to use standard library threads in Rust
 - `greenthreads`: contains complete working code for creating green threads in Rust
 - `tokio-basic` and `testing-mio`: contains a basic tokio and mio example
+- `threadpool-demo`: demonstrates Rayon threadpool. The julia set in `output.png` is amazing!
 
 ### Note
 * All code examples are either taken from the references below or from `docs.rs`
