@@ -699,6 +699,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "mio-http"
+version = "0.1.0"
+dependencies = [
+ "mio",
+]
+
+[[package]]
 name = "miow"
 version = "0.3.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1124,14 +1131,14 @@ dependencies = [
 ]
 
 [[package]]
-name = "tokio-mpsc"
+name = "tokio-oneshot-joinhandle"
 version = "0.1.0"
 dependencies = [
  "tokio",
 ]
 
 [[package]]
-name = "tokio-oneshot-joinhandle"
+name = "tokio-tcpserver"
 version = "0.1.0"
 dependencies = [
  "tokio",

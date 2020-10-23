@@ -8,6 +8,7 @@ Reading through the References section is of immense value. However, for some of
 - `greenthreads`: contains complete working code for creating green threads in Rust
 - `tokio-basic` and `testing-mio`: contains a basic tokio and mio example
 - `threadpool-demo`: demonstrates Rayon threadpool. The julia set in `output.png` is amazing!
+- `mio-http`: updates the [low level TCP Server](https://sergey-melnychuk.github.io/2019/08/01/rust-mio-tcp-server/#:~:text=Low-level%20TCP%20server%20in%20Rust%20with%20MIO%20Aug,low-level%20cross-platform%20abstraction%20over%20epoll%2Fkqueue%20written%20in%20Rust.) to the latest version of mio
 
 ### Note
 * All code examples are either taken from the references below or from `docs.rs`
@@ -40,3 +41,4 @@ cargo build
 [Writing your own Futures in Rust](https://cfsamson.github.io/books-futures-explained/0_background_information.html)<br>
 [State Machine Patterns in Rust](https://hoverbear.org/blog/rust-state-machine-pattern/)<br>
 [Writing a custom OS](https://os.phil-opp.com)<br>
+[Low level TCP server with Rust Mio](https://sergey-melnychuk.github.io/2019/08/01/rust-mio-tcp-server/#:~:text=Low-level%20TCP%20server%20in%20Rust%20with%20MIO%20Aug,low-level%20cross-platform%20abstraction%20over%20epoll%2Fkqueue%20written%20in%20Rust.)
