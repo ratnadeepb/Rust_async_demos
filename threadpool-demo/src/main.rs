@@ -81,7 +81,9 @@ fn main() -> Result<()> {
 
     for y in 0..height {
         let tx = tx.clone();
+        // perform ops within the threadpool
         pool.install(|| {
+            // all threads are spawned within the context of this threadpool
             rayon::spawn(move || {
                 for x in 0..width {
                     let i = julia(c, x, y, width, height, iterations);

@@ -14,4 +14,8 @@ members = [
 	"tokio-oneshot-joinhandle",
 	"tokio-tcpserver",
 	"mio-http",
+	"parser-combinator",
+	"multi-threaded-http",
+        "hello-futures",
+        "hello-tokio",
 ]

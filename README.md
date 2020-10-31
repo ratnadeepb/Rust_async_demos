@@ -9,6 +9,7 @@ Reading through the References section is of immense value. However, for some of
 - `tokio-basic` and `testing-mio`: contains a basic tokio and mio example
 - `threadpool-demo`: demonstrates Rayon threadpool. The julia set in `output.png` is amazing!
 - `mio-http`: updates the [low level TCP Server](https://sergey-melnychuk.github.io/2019/08/01/rust-mio-tcp-server/#:~:text=Low-level%20TCP%20server%20in%20Rust%20with%20MIO%20Aug,low-level%20cross-platform%20abstraction%20over%20epoll%2Fkqueue%20written%20in%20Rust.) to the latest version of mio
+- `hello-tokio` and `hello-futures` are excellent examples of manually creating async runtimes with barrier synchronisation.
 
 ### Note
 * All code examples are either taken from the references below or from `docs.rs`
@@ -31,6 +32,7 @@ cargo build
 [Tokio](https://docs.rs/tokio/0.3.0/tokio/index.html)<br>
 [async-std](https://book.async.rs)<br>
 [Rust async await](https://rust-lang.github.io/async-book/#:~:text=This%20book%20aims%20to%20be%20a%20comprehensive%2C%20up-to-date,general%2C%20and%20to%20Rust%27s%20particular%20take%20on%20it.)<br>
+[Tokio Tutorial](https://tokio.rs/tokio/tutorial)
 
 ### Optional to read but highly recommended
 [Rust Mio](https://docs.rs/mio/0.7.4/mio/)<br>
